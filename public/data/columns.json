@@ -1,0 +1,58 @@
+[
+  {
+    "key": "loanId",
+    "label": "ID wniosku",
+    "type": "text",
+    "sortable": true,
+    "filterable": true
+  },
+  {
+    "key": "customerName",
+    "label": "Klient",
+    "type": "text",
+    "sortable": true,
+    "filterable": true
+  },
+  {
+    "key": "status",
+    "label": "Status",
+    "type": "badge",
+    "sortable": true,
+    "filterable": true,
+    "options": [
+      "new",
+      "in_review",
+      "approved",
+      "rejected"
+    ]
+  },
+  {
+    "key": "market",
+    "label": "Rynek",
+    "type": "text",
+    "sortable": true,
+    "filterable": true
+  },
+  {
+    "key": "monthlyRate",
+    "label": "Rata",
+    "type": "currency",
+    "sortable": true,
+    "filterable": false
+  },
+  {
+    "key": "updatedAt",
+    "label": "Aktualizacja",
+    "type": "date",
+    "sortable": true,
+    "filterable": false
+  },
+  {
+    "key": "canEdit",
+    "label": "Edycja",
+    "type": "action",
+    "action": "edit",
+    "sortable": false,
+    "filterable": false
+  }
+]
