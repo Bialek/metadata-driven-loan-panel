@@ -210,7 +210,7 @@ Projekt zawiera 5 plików testowych i 44 testy jednostkowe oraz integracyjne:
    - Wyszukiwanie tekstu bez względu na wielkość liter i polskie znaki diakrytyczne ("ł", "ź", itp.).
    - Dokładne filtrowanie po statusie.
    - Łączenie filtrów z logiką `AND`.
-   - Sortowanie liczb, walut, dat i tekstu z polską kolacją.
+   - Sortowanie liczb i walut, dat oraz tekstu z użyciem `Intl.Collator('pl')`.
    - Zasada umieszczania brakujących wartości na końcu w obu kierunkach (`asc` i `desc`).
    - Niemutowalność tablicy wejściowej.
    - Cykl sortowania nagłówków: brak sortowania → rosnąco → malejąco → brak sortowania.
