@@ -242,7 +242,7 @@ Projekt zawiera 5 plików testowych i 44 testy jednostkowe oraz integracyjne:
 
 ---
 
-## 6. Co zrobił(a)bym dalej przy dodatkowych 60–90 minutach (R22)
+## 6. Co zrobiłbym dalej przy dodatkowych 60–90 minutach (R22)
 
 Gdyby zadanie miało być rozwijane w kolejnym etapie, priorytetami byłyby:
 
@@ -254,3 +254,11 @@ Gdyby zadanie miało być rozwijane w kolejnym etapie, priorytetami byłyby:
 
 3. **Dodatkowa weryfikacja dostępności:**
    - Automatyczny audyt podstawowych reguł oraz ręczny test klawiaturą i czytnikiem ekranu dla sortowania, filtrów i paginacji.
+
+---
+
+## 7. Licencja
+
+Kod źródłowy rozwiązania jest udostępniany na licencji MIT — szczegóły znajdują się w pliku `LICENSE`.
+
+Pliki w `public/data/` są dostarczonymi danymi testowymi do zadania i pozostają objęte warunkami ich pierwotnego dostawcy.
